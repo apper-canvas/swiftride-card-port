@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "last4": "4242",
+    "cardType": "Visa",
+    "expiryMonth": "12",
+    "expiryYear": "25",
+    "cardholderName": "John Doe",
+    "isDefault": true
+  },
+  {
+    "Id": 2,
+    "last4": "1234",
+    "cardType": "Mastercard",
+    "expiryMonth": "08",
+    "expiryYear": "26",
+    "cardholderName": "John Doe",
+    "isDefault": false
+  },
+  {
+    "Id": 3,
+    "last4": "9876",
+    "cardType": "American Express",
+    "expiryMonth": "03",
+    "expiryYear": "27",
+    "cardholderName": "John Doe",
+    "isDefault": false
+  }
+]

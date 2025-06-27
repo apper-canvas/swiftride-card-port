@@ -1,0 +1,77 @@
+[
+  {
+    "address": "Times Square, Manhattan",
+    "lat": 40.7580,
+    "lng": -73.9855
+  },
+  {
+    "address": "Central Park, Manhattan",
+    "lat": 40.7829,
+    "lng": -73.9654
+  },
+  {
+    "address": "Brooklyn Bridge, Brooklyn",
+    "lat": 40.7061,
+    "lng": -73.9969
+  },
+  {
+    "address": "LaGuardia Airport, Queens",
+    "lat": 40.7769,
+    "lng": -73.8740
+  },
+  {
+    "address": "JFK Airport, Queens",
+    "lat": 40.6413,
+    "lng": -73.7781
+  },
+  {
+    "address": "Empire State Building, Manhattan",
+    "lat": 40.7484,
+    "lng": -73.9857
+  },
+  {
+    "address": "Wall Street, Manhattan",
+    "lat": 40.7074,
+    "lng": -74.0113
+  },
+  {
+    "address": "Grand Central Terminal, Manhattan",
+    "lat": 40.7527,
+    "lng": -73.9772
+  },
+  {
+    "address": "High Line Park, Manhattan",
+    "lat": 40.7480,
+    "lng": -74.0048
+  },
+  {
+    "address": "Williamsburg, Brooklyn",
+    "lat": 40.7081,
+    "lng": -73.9571
+  },
+  {
+    "address": "Long Island City, Queens",
+    "lat": 40.7505,
+    "lng": -73.9420
+  },
+  {
+    "address": "Chelsea Market, Manhattan",
+    "lat": 40.7423,
+    "lng": -74.0063
+  },
+  {
+    "address": "SoHo, Manhattan",
+    "lat": 40.7233,
+    "lng": -74.0030
+  },
+  {
+    "address": "Greenwich Village, Manhattan",
+    "lat": 40.7336,
+    "lng": -74.0027
+  },
+  {
+    "address": "Financial District, Manhattan",
+    "lat": 40.7074,
+    "lng": -74.0113
+  }
+]

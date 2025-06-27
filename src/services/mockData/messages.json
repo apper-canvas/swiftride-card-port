@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "rideId": 1,
+    "senderId": "user",
+    "text": "I'm at the pickup location",
+    "timestamp": "2024-01-15T14:32:00Z"
+  },
+  {
+    "Id": 2,
+    "rideId": 1,
+    "senderId": "driver",
+    "text": "Great! I can see you. I'm in the silver Toyota Camry.",
+    "timestamp": "2024-01-15T14:32:30Z"
+  },
+  {
+    "Id": 3,
+    "rideId": 1,
+    "senderId": "user",
+    "text": "Perfect, I see you now!",
+    "timestamp": "2024-01-15T14:33:00Z"
+  },
+  {
+    "Id": 4,
+    "rideId": 2,
+    "senderId": "driver",
+    "text": "I'm about 2 minutes away from your location",
+    "timestamp": "2024-01-14T09:13:00Z"
+  },
+  {
+    "Id": 5,
+    "rideId": 2,
+    "senderId": "user",
+    "text": "Thanks for the update!",
+    "timestamp": "2024-01-14T09:13:15Z"
+  }
+]

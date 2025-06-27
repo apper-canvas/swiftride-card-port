@@ -1,0 +1,87 @@
+[
+  {
+    "Id": 1,
+    "name": "Michael Rodriguez",
+    "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+    "rating": 4.9,
+    "vehicle": {
+      "make": "Toyota",
+      "model": "Camry",
+      "color": "Silver",
+      "licensePlate": "ABC-1234"
+    },
+    "location": {
+      "lat": 40.7128,
+      "lng": -74.0060
+    },
+    "isActive": true
+  },
+  {
+    "Id": 2,
+    "name": "Sarah Johnson",
+    "photo": "https://images.unsplash.com/photo-1494790108755-2616b9bb3971?w=100&h=100&fit=crop&crop=face",
+    "rating": 4.8,
+    "vehicle": {
+      "make": "Honda",
+      "model": "Accord",
+      "color": "Black",
+      "licensePlate": "DEF-5678"
+    },
+    "location": {
+      "lat": 40.7589,
+      "lng": -73.9851
+    },
+    "isActive": true
+  },
+  {
+    "Id": 3,
+    "name": "David Chen",
+    "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    "rating": 4.7,
+    "vehicle": {
+      "make": "Nissan",
+      "model": "Altima",
+      "color": "White",
+      "licensePlate": "GHI-9012"
+    },
+    "location": {
+      "lat": 40.7831,
+      "lng": -73.9712
+    },
+    "isActive": true
+  },
+  {
+    "Id": 4,
+    "name": "Jessica Williams",
+    "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+    "rating": 4.9,
+    "vehicle": {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "color": "Blue",
+      "licensePlate": "JKL-3456"
+    },
+    "location": {
+      "lat": 40.7505,
+      "lng": -74.0164
+    },
+    "isActive": true
+  },
+  {
+    "Id": 5,
+    "name": "Robert Davis",
+    "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+    "rating": 4.6,
+    "vehicle": {
+      "make": "Ford",
+      "model": "Fusion",
+      "color": "Red",
+      "licensePlate": "MNO-7890"
+    },
+    "location": {
+      "lat": 40.7736,
+      "lng": -73.9566
+    },
+    "isActive": false
+  }
+]

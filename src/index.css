@@ -1,0 +1,95 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white font-semibold py-4 px-6 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-[1.02] active:scale-[0.98] transition-all duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-white border-2 border-surface-dark text-gray-700 font-semibold py-4 px-6 rounded-xl hover:bg-surface hover:border-primary-200 transform hover:scale-[1.02] active:scale-[0.98] transition-all duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-4 border-2 border-gray-200 rounded-xl focus:border-primary-500 focus:outline-none transition-colors duration-200 bg-white;
+  }
+  
+  .map-marker {
+    @apply w-4 h-4 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full shadow-lg animate-pulse-dot;
+  }
+}
+
+/* Toast Customizations */
+.Toastify__toast-container {
+  width: auto;
+  max-width: 400px;
+  margin: 0 16px;
+}
+
+.Toastify__toast {
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  padding: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #34C759, #2db84e);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #FF3B30, #e53e3e);
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #FF9500, #e68400);
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #5856D6, #4c4bc2);
+}
+
+/* Map Styles */
+.map-container {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.driver-marker {
+  animation: pulse-dot 2s infinite;
+}
+
+.route-line {
+  stroke: #5856D6;
+  stroke-width: 4;
+  stroke-dasharray: 8, 4;
+  animation: dash 1.5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -12;
+  }
+}
